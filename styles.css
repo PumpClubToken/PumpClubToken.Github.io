@@ -1,0 +1,154 @@
+/* style.css */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    background-image: url('https://i.pinimg.com/originals/c8/7d/fb/c87dfbf222351a07ebbf24876545c91e.jpg');
+    background-repeat: no-repeat;
+    background-size:      cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bd33a6;
+    background-image: linear-gradient(to right, #bd33a6 0%, #b31717 );
+    color: white;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px ;
+    text-align: center;
+}
+    
+    
+    
+    nav ul {
+    list-style-type: none;
+    background-color: #3303b4;
+    overflow: hidden;
+
+
+}
+nav ul li  {
+    float: left ;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+
+.nav1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+nav ul li a {
+    display: grid;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-inline-start: auto;
+    padding-inline-end: auto;
+    text-decoration: none;
+}
+.header2 {
+    font-size: x-large;
+    
+}
+
+main {
+    padding: 20px;
+    color:rgb(255, 251, 9);
+    font-weight: bolder;
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.about {
+background-color: #118806;
+text-align: center;
+}
+.grid-container {
+    display: grid; /* Enables a grid layout */
+    grid-template-columns: 1fr 1.55fr; /* Creates two columns of equal width */
+  }
+.about p {
+    text-align: center;
+    color: rgb(226, 216, 204);
+    font-size: larger;
+    padding-top: 60px;
+width: 500px;
+
+
+}
+.box1 {
+width: 342px;
+height: 595px;
+    background-image: url('https://i.pinimg.com/originals/b3/c6/0e/b3c60e4a2f19fcc3ff260d355f24d5a3.png');
+}
+.benefits {
+    background-color: #15a508;
+
+
+}
+.benefits p {
+
+
+    text-align: center;
+    color: rgb(226, 216, 204);
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.htb {
+background-color: #1ac00a;
+margin-bottom: 100px;
+}
+.box2 {
+    background-image: url('https://assets-global.website-files.com/62e89931273b5c21be76c486/6537cfb4a718b4d8f5d2f27b_roadmap-ilustracao.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 640px;
+}
+.rdmap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: #e2d8cc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+}
+.xlogo0 {
+    color: rgb(252, 44, 224);
+    font-weight: 780;
+
+}
+.xlogo {
+    color: rgb(0, 255, 255);
+    font-weight: 780;
+
+}
+.xlogo2 {
+    color: rgb(9, 224, 224);
+    font-weight: 780;
+}
+.xlogo3 {
+    color: rgb(3, 209, 209);
+    font-weight: 780;
+}
